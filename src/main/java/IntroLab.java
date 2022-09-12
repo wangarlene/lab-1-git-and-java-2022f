@@ -41,18 +41,20 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
-    /**
-     * An example method that calls on printLabMessage.
-     */
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
                 "Welcome to CSC207!");
     }
 
-
+    public static String wangarle() {
+        return printLabMessage("Hi", "Arlene", true, "Happy Monday");
+    }
+    /**
+     * An example method that calls on printLabMessage.
+     */
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
-
+        System.out.println(wangarle());
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
          *
